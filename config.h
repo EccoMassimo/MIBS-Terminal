@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "DejaVu Sans Mono:pixelsize=14:antialias=true:autohint=true";
+static char *font = "Unifont:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 10;
 
 /*
@@ -42,8 +42,8 @@ static unsigned int tripleclicktimeout = 600;
 int allowaltscreen = 1;
 
 /* frames per second st should at maximum draw to the screen */
-static unsigned int xfps = 120;
-static unsigned int actionfps = 120;
+static unsigned int xfps = 240;
+static unsigned int actionfps = 240;
 
 /*
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
