@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Unifont:pixelsize=16:antialias=true:autohint=true";
+static char *font = "DejaVu Sans Mono:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 10;
 
 /*
@@ -24,8 +24,8 @@ char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
-static float cwscale = 1.1;
-static float chscale = 1.1;
+static float cwscale = 1;
+static float chscale = 1;
 
 /*
  * word delimiter string
