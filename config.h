@@ -84,25 +84,27 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	/* 8 normal colors */
-	"#000000",  /*black*/
-	"#e95678",  /*red*/
-	"#09f7a0",  /*green*/
-	"#fab795",  /*yellow*/
-	"#545ba5",  /*blue*/
-	"#b877db",  /*magenta*/
-	"#008080",  /*cyan*/
-	"#ffffff",  /*white*/
 
-	/* 8 bright colors */
-	"#aaaaaa",  /*gray*/
-	"#e95678",  /*red*/
-	"#09f7a0",  /*green*/
-	"#fab795",  /*yellow*/
-	"#545ba5",  /*blue*/
-	"#b877db",  /*magenta*/
-	"#008080",  /*cyan*/
-	"#ffffff",  /*white*/
+        /*Tomorrow*/
+	"#1d1f21",
+	"#cc6666",
+	"#b5bd68",
+	"#f0c674",
+	"#81a2be", 
+	"#b294bb",  
+	"#8abeb7",  
+	"#ffffff",
+
+        /*Tomorrow*/
+	"#1d1f21",
+	"#cc6666",
+	"#b5bd68",
+	"#f0c674",
+	"#81a2be", 
+	"#b294bb",  
+	"#8abeb7",  
+	"#ffffff", 
+	
 
 	[255] = 0,
 
@@ -180,9 +182,9 @@ static Shortcut shortcuts[] = {
 	{ ControlMask,          XK_Print,       toggleprinter,  {.i =  0} },
 	{ ShiftMask,            XK_Print,       printscreen,    {.i =  0} },
 	{ XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
-	{ ShiftMask,            XK_Up,          zoom,           {.f = +1} },
-	{ ShiftMask,            XK_Down,        zoom,           {.f = -1} },
-	{ ShiftMask,            XK_Home,        zoomreset,      {.f =  0} },
+	{ ControlMask,          XK_equal,          zoom,           {.f = +1} },
+	{ ControlMask,          XK_minus,        zoom,           {.f = -1} },
+	{ ControlMask,          XK_0,        zoomreset,      {.f =  0} },
 	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },
 	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} },
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
