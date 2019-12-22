@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "DejaVu Sans Mono:pixelsize=14:antialias=true:autohint=true";
+static char *font = "Terminus:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 10;
 
 /*
@@ -85,35 +85,43 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 
-        /*Tomorrow
+        /*Monokai
+	"#000000",
+	"#F92672",
+	"#A6E22E",
+	"#F4Bf75",
+	"#66D9EF",
+	"#AE81FF",
+	"#A1EFE4",
+	"#ffffff",
+
+	"#000000",
+	"#F92672",
+	"#A6E22E",
+	"#F4Bf75",
+	"#66D9EF",
+	"#AE81FF",
+	"#A1EFE4",
+	"#ffffff", */
+
+	/*Tomorrow Night*/
 	"#000000",
 	"#AA0000",
 	"#00AA00",
 	"#AA5500",
-	"#0000AA", 
-	"#AA00AA",  
-	"#00AAAA",  
-	"#ffffff",*/
+	"#0000AA",
+	"#AA00AA",
+	"#00AAAA",
+	"#FFFFFF",
 
-        /*Tomorrow*/
-	"#000000",
-	"#F92672",
-	"#A6E22E",
-	"#F4Bf75",
-	"#66D9EF", 
-	"#AE81FF",  
-	"#A1EFE4",  
-	"#ffffff",
-       
-       	/*Tomorrow*/
-	"#000000",
-	"#F92672",
-	"#A6E22E",
-	"#F4Bf75",
-	"#66D9EF", 
-	"#AE81FF",  
-	"#A1EFE4",  
-	"#ffffff",
+	"#555555",
+	"#FF5555",
+	"#55FF55",
+	"#FFFF55",
+	"#5555FF",
+	"#FF55FF",
+	"#55FFFF",
+	"#FFFFFF",
 
 	[255] = 0,
 
