@@ -85,27 +85,27 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 
-        /*Monokai
-	"#000000",
-	"#F92672",
-	"#A6E22E",
-	"#F4Bf75",
-	"#66D9EF",
-	"#AE81FF",
-	"#A1EFE4",
-	"#ffffff",
+        /*Monokai*/
+	"#1d1f21",
+	"#a54242",
+	"#8c9440",
+	"#de935f",
+	"#5f819d",
+	"#85678f",
+	"#5e8d87",
+	"#c5c8c6",
 
-	"#000000",
-	"#F92672",
-	"#A6E22E",
-	"#F4Bf75",
-	"#66D9EF",
-	"#AE81FF",
-	"#A1EFE4",
-	"#ffffff", */
+	"#373b41",
+	"#cc6666",
+	"#b5bd68",
+	"#f0c674",
+	"#81a2be",
+	"#b294bb",
+	"#8abeb7",
+	"#c5c8c6",
 
-	/*Tomorrow Night*/
-	"#000000",
+	/*Tomorrow Night
+	"#969896",
 	"#AA0000",
 	"#00AA00",
 	"#AA5500",
@@ -121,7 +121,7 @@ static const char *colorname[] = {
 	"#5555FF",
 	"#FF55FF",
 	"#55FFFF",
-	"#FFFFFF",
+	"#FFFFFF", */
 
 	[255] = 0,
 
